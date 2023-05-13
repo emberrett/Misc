@@ -1,4 +1,4 @@
-A short Powershell script that removes any desktop shortcuts for the currently logged-in and the public user.
+A short Powershell script that removes any desktop shortcuts (files with `.lnk` extension) for the current and public user.
 
 To have this run at logon and/or unlock:
 1. Clone repo.
@@ -11,6 +11,5 @@ To have this run at logon and/or unlock:
             * Program/script: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`
             * Add arguments: `-File "C:\<directory_of_the_repo>\remove_shortcuts.ps1"`
     3. General
-        * Make sure `Run with highest privileges` is checked
-3. Save.
+        * Make sure `Run with highest privileges` is checked.
         
